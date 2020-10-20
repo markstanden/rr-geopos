@@ -1,0 +1,20 @@
+.App {
+  height: 80vh;
+  width: 80vw;
+  border: 2px solid red;
+  border-radius: 1rem;
+  margin: 2rem auto 1rem auto;
+  padding: 2rem;
+}
+.App-header {
+  margin: 5rem auto 5rem auto;
+  vertical-align: auto;
+  text-align: center;
+  color: indigo;
+}
+.App-header-main {
+  font-size: 3rem;
+}
+.App-header-subtext {
+  font-size: 1rem;
+}
