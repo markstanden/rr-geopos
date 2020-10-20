@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import Weather from "./Weather";
 
 interface AppProps {}
 interface AppState {
@@ -15,10 +16,13 @@ class App extends React.Component<AppProps, AppState> {
   render() {
     return (
       <div className={`App`}>
-        <h1 className={`App-header App-header-main`}>THIS IS A TEST</h1>
-        <p className={`App-header App-header-subtext`}>
-          DO NOT ADJUST YOUR SCREENS
-        </p>
+        <header className={`App-header`}>
+          <h1 className={`App-header-main`}>THIS IS A TEST</h1>
+          <p className={`App-header-subtext`}>DO NOT ADJUST YOUR SCREENS</p>
+        </header>
+        <main>
+          <Weather />
+        </main>
       </div>
     );
   }
